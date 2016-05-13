@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300&subset=latin,cyrillic);
+html {height:100%}
+body {
+	width:100%;
+	background:transparent url("images/bodyBG.jpg") no-repeat fixed center center;
+    background-size: 100% 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	width:100%; height:289px;
+	background:transparent url("images/headerBG.png") repeat-x center top;
+}
+header .sub_header {
+	width:100%; height:60px;
+	background-color:rgba(0,0,0,.3);
+	color:#fff;
+	font-style:italic;
+	font-family:Athelas;
+	font-size:18px;
+	font-weight:bold;
+}
+header .sub_header .sub_header_center {max-width:790px; margin:0 auto; padding-top:12px}
+header .sub_header .left {float:left}
+header .sub_header .right {float:right}
+header .sub_header .skype {
+	padding:8px 0 8px 45px;
+	float:left;
+	margin-right:30px;
+	background:transparent url("images/ico_skype.png") no-repeat left top;
+}
+header .sub_header .email {
+	padding:8px 0 8px 45px;
+	float:left;
+	background:transparent url("images/ico_email.png") no-repeat left top;
+}
+header .sub_header .fb {
+	float:left;
+	width:34px; height:34px;
+	background:transparent url("images/ico_facebook.png") no-repeat left top;	
+}
+header .sub_header .vk {
+	float:left;
+	margin-left:20px;
+	width:34px; height:34px;
+	background:transparent url("images/ico_vk.png") no-repeat left top;	
+}
+
+header .logo {
+	display:table;
+	margin:0 auto;
+}
+
+.main {}
+.main .video {
+	width:790px; height:510px;
+	display:table;
+	margin:70px auto 0;
+}
+.main .content {
+	width:790px;
+	display:table;
+	margin:10px auto 0;
+	padding:15px 20px;
+	background-color:rgba(0,0,0,.3);
+	color:#fff;
+	font-size:18px;
+	font-weight:300;
+	line-height:150%;
+	box-sizing:border-box;
+}
+
+.main .play_btn {
+	width:275px; height:100px;
+	display:table;
+	margin:130px auto;
+	background:transparent url("images/btn_play.png") no-repeat center top;
+}
+
+.main .screens {
+	max-width:790px;
+	width:100%;
+	margin:0 auto;
+	display:table;
+}
+.main .screens a {
+	display:table-cell;
+	text-align:center;
+}
+
+footer {
+	display:table;
+	margin:20px auto 0;
+	padding:240px 0 15px;
+	color:#fff;
+	background:transparent url("images/footer_logo.png") no-repeat center top;
+	font-size:18px;
+	font-weight:300;
+}
+
+.copyright {
+	opacity: 0.3;
+}
