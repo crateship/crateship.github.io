@@ -45,6 +45,7 @@
 	width: 100%;
 	z-index: 1100;
 	display: none;
+	color: black;
 }
 
 #fancybox-tmp {
@@ -137,7 +138,7 @@
 	width: 35%;
 	cursor: pointer;
 	outline: none;
-	background: transparent url('blank.gif');
+	/* background: transparent url('blank.gif'); */
 	z-index: 1102;
 	display: none;
 }

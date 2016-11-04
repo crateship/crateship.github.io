@@ -4,6 +4,9 @@ $(document).ready(function() {
 		'transitionOut'	:	'elastic',
 		'speedIn'		:	600, 
 		'speedOut'		:	200, 
-		'overlayShow'	:	false
+		'overlayShow'	:	true,
+		'padding'       :   0,
+		'opacity'       :   true,
+		'overlayColor'  :   '#000'
 	});
 });
